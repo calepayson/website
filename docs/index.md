@@ -2,7 +2,7 @@
 
 If you'd like to know what I think, check out my Writing.
 
-You can take a look at my Bio to get a sense for what I've been up to.
+You can take a look at my [Bio](bio.md) to get a sense for what I've been up to.
 
 I also use this website to host some Media.
 
