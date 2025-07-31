@@ -33,3 +33,8 @@ nav:
 
 markdown_extensions: 
   - footnotes
+
+extra:
+  analytics:
+    provider: google
+    property: G-TW5TXJBYF5
