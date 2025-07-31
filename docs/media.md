@@ -1,31 +1,5 @@
 # Media
 
-## Stay Curious
-
-![Stay Curious](static/images/stay_curious.jpg)
-
-I wanted this to be a play on the conventional definition of life and the Gaia
-Hypothesis with a nod to memetics.
-
-The conventional definition of life consists of a laughably inconsistent set of
-criteria that living things fulfill, one of them (usually) being
-"Reproduction". The Gaia Hypothesis argues that Earth could be considered one
-massive super-organism.
-
-Through these lenses, our current space programs are the Earth's first attempts
-at reproduction. If we manage to terraform a new planet, the earth will satisfy
-that criteria and should "officially" be considered alive.
-
-But I think the conventional definition of life sucks. Imitated behavior
-operates on the same principles of evolution as biological life yet very few
-people consider things like cultures or companies alive. The butterflies are
-meant to symbolize memetic life (there's only so many good analogies in nat
-geo).
-
-Stay curious, there is new life.
-
----
-
 ## The Graveside
 
 ![The Graveside](static/images/the_graveside.jpg)
@@ -57,6 +31,32 @@ The graveside is King's but it is also the idea of the Poor People's Campaign.
 The idea of expanding the civil rights campaign to include economic rights.
 
 It's a death that haunts today's America more than any other.
+
+---
+
+## Stay Curious
+
+![Stay Curious](static/images/stay_curious.jpg)
+
+I wanted this to be a play on the conventional definition of life and the Gaia
+Hypothesis with a nod to memetics.
+
+The conventional definition of life consists of a laughably inconsistent set of
+criteria that living things fulfill, one of them (usually) being
+"Reproduction". The Gaia Hypothesis argues that Earth could be considered one
+massive super-organism.
+
+Through these lenses, our current space programs are the Earth's first attempts
+at reproduction. If we manage to terraform a new planet, the earth will satisfy
+that criteria and should "officially" be considered alive.
+
+But I think the conventional definition of life sucks. Imitated behavior
+operates on the same principles of evolution as biological life yet very few
+people consider things like cultures or companies alive. The butterflies are
+meant to symbolize memetic life (there's only so many good analogies in nat
+geo).
+
+Stay curious, there is new life.
 
 [^1]:
     I would rate it above issues like climate change. I doubt we'll be able to
