@@ -21,9 +21,9 @@ of this post will convince you to read it.
 If you, or anyone you know, is interested in these ideas or wants to build/is 
 building a Darwin Machine, please reach out. My email is calepayson(at)mac.com.
 
-# Some Background
+## Some Background
 
-## On Evolution:
+### On Evolution:
 
 Near the end of his career Schrodinger wrote a book, "What is Life?", that 
 provides a great lens through which to view biology: Life is unnatural... If
@@ -42,3 +42,11 @@ a near infinite "problem space". One algorithm it has found to solve this
 problem is evolution. To butcher a computer science phrase, I believe that 
 evolution is the "best case runtime" when trying to find increasingly valid
 solutions to a near infinite problem space.
+
+Essentially, biology uses evolution because it is the best way to solve the 
+problem of prediction (survival/reproduction) in a complex world.
+
+### On Constraints
+
+I love constraints in science because they can give us hope for a theory before
+it has been worked out. For example, before we knew what genetic material
