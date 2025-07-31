@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://calepayson.github.io/website/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-31</lastmod>
     </url>
     <url>
          <loc>https://calepayson.github.io/website/bio/</loc>
-         <lastmod>2025-07-18</lastmod>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://calepayson.github.io/website/media/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://calepayson.github.io/website/thoughts/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://calepayson.github.io/website/thoughts/2025/07/30/fast---catherine-juehttpswwwcatherinejuecomfast/</loc>
+         <lastmod>2025-07-31</lastmod>
+    </url>
+    <url>
+         <loc>https://calepayson.github.io/website/thoughts/archive/2025/</loc>
+         <lastmod>2025-07-31</lastmod>
     </url>
 </urlset>
