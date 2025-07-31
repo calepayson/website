@@ -1,4 +1,5 @@
 site_name: Vedgie Net
+site_description: Cale's homepage
 site_url: https://calepayson.github.io/website/
 
 theme:
@@ -18,6 +19,17 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+plugins:
+  - search
+  - blog:
+      blog_dir: thoughts
+      post_excerpt: optional
+
 nav:
   - Home: index.md
   - Bio: bio.md
+  - Thoughts: thoughts/index.md
+  - Media: media.md
+
+markdown_extensions: 
+  - footnotes

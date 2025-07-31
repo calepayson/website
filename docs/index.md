@@ -1,6 +1,6 @@
 # Hi, I'm Cale.
 
-If you'd like to know what I think, check out my Writing.
+If you'd like to know what I think, here are some [thoughts](thoughts/index.md).
 
 You can take a look at my [Bio](bio.md) to get a sense for what I've been up to.
 

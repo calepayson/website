@@ -1,0 +1,13 @@
+authors:
+  calepayson:
+    name: Cale Smith
+    description: I am Vedgie Net
+    avatar: static/images/headshot.jpg
+    slug: calepayson
+    url: https://www.vedgie.net
+  juecd__:
+    name: Catherine Jue
+    description: CEO @ kernel
+    avatar: static/images/code.png
+    slug: juecd__
+    url: https://www.catherinejue.com
