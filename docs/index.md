@@ -9,4 +9,4 @@ I also use this website to host some [Media](media.md).
 
 Shoot me an email if you'd like to chat: calepayson(at)mac.com.
 
-If youre in the Bay Area and want to chat, let's grab a coffee!
+If you're in the Bay Area and want to chat, let's grab a coffee!

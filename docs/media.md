@@ -11,7 +11,7 @@ a movement that aimed to secure economic and human rights for poor people. In
 essence, a decleration that all people should have what they need to live. A
 call for an economic bill of rights.
 
-While working on this campaign he declared the [Memphis sanitation strik](https://en.wikipedia.org/wiki/Memphis_sanitation_strike)
+While working on this campaign he declared the [Memphis sanitation strike](https://en.wikipedia.org/wiki/Memphis_sanitation_strike)
 a major aspect of the campaign. Days before King arrived there was a storm of
 press, "implying that the Memphis outbursts foreshadowed mass violence by the
 Poor People's Campaign in Washington."[^2]. King was assassinated the night
