@@ -4,37 +4,27 @@ site_url: https://vedgie.net
 
 theme:
   name: material
-  palette: 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  logo: static/icons/grass.svg
+  favicon: static/icons/grass.svg
 
 plugins:
   - search
-  - blog:
-      blog_dir: thoughts
-      post_excerpt: optional
 
 nav:
   - Home: index.md
   - Bio: bio.md
-  - Thoughts: thoughts/index.md
   - Media: media.md
+  - Writing: writing/index.md
+  - Reading: reading/index.md
 
 markdown_extensions: 
   - footnotes
+
+extra_css:
+  - static/extra.css
 
 extra:
   analytics:
     provider: google
     property: G-TW5TXJBYF5
+  generator: false
