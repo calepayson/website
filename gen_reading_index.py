@@ -9,17 +9,17 @@ class PostMetaData:
     def __init__(
         self,
         title: str,
+        author: str,
         slug: str,
         description: str,
-        date_created: str,
+        date_read: str,
         draft: bool,
-        date_modified: str | None = None,
     ):
         self.title = title
+        self.author = author
         self.slug = slug
         self.description = description
-        self.date_created = date_created
-        self.date_modified = date_modified
+        self.date_read = date_read
         self.draft = draft
 
     def get_text_card(self) -> str:
@@ -29,7 +29,7 @@ class PostMetaData:
             return dedent(
                 f"""
                 ## [{self.title}](posts/{self.slug})
-                <div class="dates">Created: {self.date_created}</div>
+                <div class="dates">{self.author}</div>
                 {self.description}
                 <hr>
                 """
@@ -37,8 +37,8 @@ class PostMetaData:
 
 
 def get_all_post_paths() -> list[str]:
-    files = os.listdir("docs/writing/posts")
-    paths = [f"docs/writing/posts/{filename}" for filename in files]
+    files = os.listdir("docs/reading/posts")
+    paths = [f"docs/reading/posts/{filename}" for filename in files]
     return paths
 
 
@@ -55,7 +55,7 @@ def get_all_cards(paths: list[str]):
     for path in paths:
         metadata.append(get_post_metadata(path))
 
-    metadata = sorted(metadata, key=lambda x: x.date_created, reverse=True)
+    metadata = sorted(metadata, key=lambda x: x.date_read, reverse=True)
 
     for post in metadata:
         content += post.get_text_card()
@@ -88,7 +88,7 @@ def get_content() -> str:
 
 
 def main():
-    with mkdocs_gen_files.open("writing/index.md", "w") as f:
+    with mkdocs_gen_files.open("reading/index.md", "w") as f:
         print(get_content(), file=f)
 
 

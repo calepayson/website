@@ -12,6 +12,7 @@ plugins:
   - gen-files:
       scripts:
         - gen_writing_index.py
+        - gen_reading_index.py
 
 nav:
   - Home: index.md
