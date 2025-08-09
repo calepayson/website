@@ -1,5 +1,6 @@
 import frontmatter
 import mkdocs_gen_files
+import os
 
 from textwrap import dedent
 
@@ -38,11 +39,17 @@ class PostMetaData:
             ## [{self.title}](/posts/{self.slug})
             <div class="dates">Created: {self.date_created}</div>
             {self.description}
-            <hr style="background-color: #8b949e; border: none; height: 1px;">
+            <hr>
             """
         ).strip()
 
         return style + text
+
+
+def get_all_post_paths() -> list[str]:
+    files = os.listdir("docs/writing/posts")
+    paths = [f"docs/writing/posts/{filename}" for filename in files]
+    return paths
 
 
 def get_post_metadata(path: str) -> PostMetaData:
@@ -51,8 +58,22 @@ def get_post_metadata(path: str) -> PostMetaData:
         return PostMetaData(**post.metadata)
 
 
+def get_all_cards(paths: list[str]):
+    content = ""
+    metadata = []
+
+    for path in paths:
+        metadata.append(get_post_metadata(path))
+
+    metadata = sorted(metadata, key=lambda x: x.date_created, reverse=True)
+
+    for post in metadata:
+        content += post.get_text_card()
+
+    return content
+
+
 def get_content() -> str:
-    metadata = get_post_metadata("docs/writing/posts/darwin_machines.md")
     style = dedent(
         """
     <style>
@@ -60,11 +81,20 @@ def get_content() -> str:
         font-size: .7rem;
         color: #8b949e;
     }
+    
+    hr {
+        background-color: #8b949e;
+        border: none;
+        height: 1px;
+    }
     </style>
     """
     ).strip()
 
-    return style + metadata.get_text_card()
+    post_paths = get_all_post_paths()
+    cards = get_all_cards(post_paths)
+
+    return style + cards
 
 
 def main():
