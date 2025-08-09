@@ -26,7 +26,8 @@ class PostMetaData:
             """
         <style>
         .dates {
-            color: red;
+            font-size: .7rem;
+            color: #8b949e;
         }
         </style>
         """
@@ -37,7 +38,8 @@ class PostMetaData:
             ## [{self.title}](/posts/{self.slug})
             <div class="dates">Created: {self.date_created}</div>
             {self.description}
-        """
+            <hr style="background-color: #8b949e; border: none; height: 1px;">
+            """
         ).strip()
 
         return style + text
@@ -51,7 +53,18 @@ def get_post_metadata(path: str) -> PostMetaData:
 
 def get_content() -> str:
     metadata = get_post_metadata("docs/writing/posts/darwin_machines.md")
-    return metadata.get_text_card()
+    style = dedent(
+        """
+    <style>
+    .dates {
+        font-size: .7rem;
+        color: #8b949e;
+    }
+    </style>
+    """
+    ).strip()
+
+    return style + metadata.get_text_card()
 
 
 def main():
