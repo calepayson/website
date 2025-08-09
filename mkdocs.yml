@@ -9,6 +9,9 @@ theme:
 
 plugins:
   - search
+  - gen-files:
+      scripts:
+        - gen_writing_index.py
 
 nav:
   - Home: index.md
