@@ -1,0 +1,30 @@
+/*
+Thanks to Herman Martinus for the inspiration!
+https://herman.bearblog.dev/
+*/
+
+:root  > * {
+    --md-primary-fg-color: #161b22;
+    --md-default-fg-color--light: #fff;
+    --md-default-bg-color: #161b22;
+    --md-typeset-color: #fff;
+    --md-typeset-a-color: #8cc2dd;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8cc2dd !important;
+    text-decoration: underline;
+}
+
+.md-footer {
+    display: none;
+}
+
+.md-header {
+    box-shadow: none;
+}
