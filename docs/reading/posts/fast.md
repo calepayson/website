@@ -1,7 +1,7 @@
 ---
 title: fast
 author: Catherine Jue
-slug: test.md
+slug: fast.md
 description: A short essay on why software should be fast
 date_read: 2025-08-09
 draft: false
